@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart | RCH Chill 'n' Thrill</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="home.html">🍽️ <span>RCH Chill 'n' Thrill</span></a>
+    <nav aria-label="Main navigation">
+        <a href="home.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="cart.html" class="active" aria-current="page">Cart <span id="cartCount" class="cart-badge">0</span></a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <button type="button" onclick="logout()" class="logout-button">Logout ↗</button>
+  </div>
+</header>
+
+<main class="container">
+  <section class="page-intro">
+    <span class="pill orange-pill">YOUR LITTLE FOOD COLLECTION</span>
+    <h1>Your Food Cart 🛒</h1>
+    <p>Add, remove and adjust your picks</p>
+  </section>
+  <div id="cartItems"></div>
+  <div id="cartSummary"></div>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div><strong>🍽️ RCH Chill 'n' Thrill</strong><p>Good food, happy moments, friendly prices.</p></div>
+    <div><p>Tallapalem Road, Ramanaidupet</p><p>Machilipatnam, Andhra Pradesh 521002</p></div>
+  </div>
+  <p class="footer-note">© 2026 RCH Chill 'n' Thrill ·</p>
+</footer>
+  <script src="script.js"></script>
+</body>
+</html>

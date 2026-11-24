@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu | RCH Chill 'n' Thrill</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="home.html">🍽️ <span>RCH Chill 'n' Thrill</span></a>
+    <nav aria-label="Main navigation">
+        <a href="home.html">Home</a>
+        <a href="menu.html" class="active" aria-current="page">Menu</a>
+        <a href="cart.html">Cart <span id="cartCount" class="cart-badge">0</span></a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <button type="button" onclick="logout()" class="logout-button">Logout ↗</button>
+  </div>
+</header>
+
+<main class="container">
+  <section class="page-intro">
+    <span class="pill orange-pill">FRESH IDEAS FOR EVERY CRAVING</span>
+    <h1>Our Delicious Menu 🍴</h1>
+    <p>From light breakfasts to filling meals, find something you'll love.</p>
+    <p class="small-note">Menu: Poori ₹35, Chapati ₹35, and Veg Biryani ₹45 are supplied reference prices. All other dishes and prices are samples.</p>
+  </section>
+
+  <section class="menu-tools">
+    <label for="menuSearch">Find your favorite</label>
+    <input id="menuSearch" type="search" placeholder="🔎  Search dishes, like dosa or rice..." aria-label="Search menu dishes">
+    <p class="search-count" id="menuResultCount" aria-live="polite">Showing 18 dishes</p>
+  </section>
+  <div class="filter-bar" aria-label="Menu categories">
+    <button type="button" class="filter-button selected" onclick="filterMenu('all', this)">All Items</button>
+    <button type="button" class="filter-button" onclick="filterMenu('veg', this)">Vegetarian</button>
+    <button type="button" class="filter-button" onclick="filterMenu('nonveg', this)">Non-Vegetarian</button>
+    <button type="button" class="filter-button" onclick="filterMenu('starters', this)">Starters</button>
+    <button type="button" class="filter-button" onclick="filterMenu('main', this)">Main Course</button>
+    <button type="button" class="filter-button" onclick="filterMenu('tiffins', this)">South Indian / Tiffins</button>
+    <button type="button" class="filter-button" onclick="filterMenu('roti', this)">Roti & Curry</button>
+    <button type="button" class="filter-button" onclick="filterMenu('sides', this)">Sides</button>
+    <button type="button" class="filter-button" onclick="filterMenu('drinks', this)">Drinks</button>
+  </div>
+  <div id="menuGrid" class="food-grid"></div>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div><strong>🍽️ RCH Chill 'n' Thrill</strong><p>Good food, happy moments, friendly prices.</p></div>
+    <div><p>Tallapalem Road, Ramanaidupet</p><p>Machilipatnam, Andhra Pradesh 521002</p></div>
+  </div>
+  <p class="footer-note">© 2026 RCH Chill 'n' Thrill ·</p>
+</footer>
+  <script src="script.js"></script>
+</body>
+</html>

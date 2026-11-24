@@ -1,0 +1,29 @@
+REAL PHOTOGRAPHY SOURCES — RCH STUDENT WEBSITE
+
+These are stock photographs from Pexels, not real photos of RCH Chill 'n' Thrill, its meals, or its premises.
+Some photographs represent similar dishes rather than the exact named menu preparation (e.g. Onion Dosa, Chicken 65, Gobi 65).
+All images load from the Pexels image CDN when your browser is connected to the internet.
+Photo license: https://www.pexels.com/license/ (free to use, no attribution required).
+
+Poori: https://www.pexels.com/photo/31150256/ (Photo ID 31150256)
+Chapati: https://www.pexels.com/photo/5434693/ (Photo ID 5434693)
+Veg Biryani: https://www.pexels.com/photo/7593230/ (Photo ID 7593230)
+Masala Dosa: https://www.pexels.com/photo/20422129/ (Photo ID 20422129)
+Idli: https://www.pexels.com/photo/31199041/ (Photo ID 31199041)
+Onion Dosa: https://www.pexels.com/photo/20422123/ (Photo ID 20422123)
+Veg Fried Rice: https://www.pexels.com/photo/32489477/ (Photo ID 32489477)
+Egg Fried Rice: https://www.pexels.com/photo/32845321/ (Photo ID 32845321)
+Chicken Fried Rice: https://www.pexels.com/photo/34668501/ (Photo ID 34668501)
+Chicken Biryani: https://www.pexels.com/photo/12737817/ (Photo ID 12737817)
+Veg Manchurian: https://www.pexels.com/photo/28674530/ (Photo ID 28674530)
+Chicken 65: https://www.pexels.com/photo/27497768/ (Photo ID 27497768)
+Paneer Curry: https://www.pexels.com/photo/9609838/ (Photo ID 9609838)
+Egg Curry: https://www.pexels.com/photo/29145821/ (Photo ID 29145821)
+French Fries: https://www.pexels.com/photo/8272619/ (Photo ID 8272619)
+Gobi 65: https://www.pexels.com/photo/35071828/ (Photo ID 35071828)
+Lemon Soda: https://www.pexels.com/photo/9996446/ (Photo ID 9996446)
+Masala Tea: https://www.pexels.com/photo/29650995/ (Photo ID 29650995)
+Indian food spread: https://www.pexels.com/photo/32083370/ (Photo ID 32083370)
+South Indian breakfast spread: https://www.pexels.com/photo/35539315/ (Photo ID 35539315)
+
+The photo page URLs above use the canonical Pexels ID, and the site itself uses the CDN at images.pexels.com.

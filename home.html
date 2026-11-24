@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | RCH Chill 'n' Thrill</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="home.html">🍽️ <span>RCH Chill 'n' Thrill</span></a>
+    <nav aria-label="Main navigation">
+        <a href="home.html" class="active" aria-current="page">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="cart.html">Cart <span id="cartCount" class="cart-badge">0</span></a>
+        <a href="contact.html">Contact</a>
+    </nav>
+    <button type="button" onclick="logout()" class="logout-button">Logout ↗</button>
+  </div>
+</header>
+
+<main class="container">
+  <section class="hero">
+    <div class="hero-copy">
+      <p class="eyebrow">🍊 FRESH FLAVORS, EVERY DAY</p>
+      <h1>Big on taste.<br><span>Easy on your pocket.</span></h1>
+      <p>Welcome to RCH Chill 'n' Thrill! Enjoy delicious tiffins, yummy snacks and satisfying meals right here in Machilipatnam.</p>
+      <div class="hero-actions">
+        <a class="button" href="menu.html">Explore Our Menu →</a>
+        <a class="button button-outline" href="contact.html">Find Us</a>
+      </div>
+      <div class="hero-details">
+        <span>⭐ 3.9/5 Google rating reference</span>
+      </div>
+    </div>
+    <div class="hero-picture">
+      <img src="https://images.pexels.com/photos/32083370/pexels-photo-32083370.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="stock photograph of Indian dishes served on a table">
+    </div>
+  </section>
+
+  <section class="welcome-strip" aria-label="Restaurant highlights">
+    <span>🍛 Indian favorites</span><span>🥘 Tiffins & snacks</span><span>🥬 Veg & non-veg</span><span>📍 Machilipatnam</span>
+  </section>
+
+  <section class="content-section about-section">
+    <div>
+      <p class="eyebrow">GET TO KNOW US</p>
+      <h2>A little about our place</h2>
+    </div>
+    <div>
+      <p>RCH Chill 'n' Thrill is a budget-friendly tiffin center and casual dining spot on Tallapalem Road in Machilipatnam. From South Indian breakfasts to fried rice and snacks, it offers a range of approachable food choices.</p>
+    </div>
+  </section>
+
+  <section class="content-section">
+    <div class="section-heading">
+      <div><p class="eyebrow">HANDPICKED FROM OUR MENU</p><h2>Popular food ideas 😋</h2></div>
+      <a href="menu.html" class="text-link">View all dishes →</a>
+    </div>
+    <div id="popularGrid" class="food-grid"></div>
+    <p class="center"><a href="menu.html" class="button">Explore Full Menu →</a></p>
+  </section>
+
+  <section class="content-section">
+    <div class="section-heading"><div><p class="eyebrow">FESTIVE SEASON</p><h2>Special offers</h2></div></div>
+    <div class="simple-grid">
+      <article class="info-card"><span class="info-icon">🎉</span><h3>10% OFF</h3><p>Sample offer on orders over ₹299.</p></article>
+      <article class="info-card"><span class="info-icon">🥞</span><h3>Breakfast Combo</h3><p>A tasty morning meal idea.</p></article>
+      <article class="info-card"><span class="info-icon">✨</span><h3>Weekend Specials</h3><p>Something exciting for the weekend.</p></article>
+    </div>
+  </section>
+
+  <section class="content-section last-section">
+    <div class="section-heading"><div><p class="eyebrow">WHAT'S COOKING?</p><h2>Events & updates</h2></div></div>
+    <div class="simple-grid">
+      <article class="info-card"><span class="info-icon">🍜</span><h3>Weekend Menu</h3><p>Example weekend special items.</p></article>
+      <article class="info-card"><span class="info-icon">🪔</span><h3>Festival Food</h3><p>A sample festival-themed update.</p></article>
+      <article class="info-card"><span class="info-icon">🧑‍🍳</span><h3>New Dishes</h3><p>Placeholder for possible future additions.</p></article>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div><strong>🍽️ RCH Chill 'n' Thrill</strong><p>Good food, happy moments, friendly prices.</p></div>
+    <div><p>Tallapalem Road, Ramanaidupet</p><p>Machilipatnam, Andhra Pradesh 521002</p></div>
+  </div>
+  <p class="footer-note">© 2026 RCH Chill 'n' Thrill ·</p>
+</footer>
+  <script src="script.js"></script>
+</body>
+</html>

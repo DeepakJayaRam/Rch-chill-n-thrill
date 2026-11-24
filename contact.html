@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | RCH Chill 'n' Thrill</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="home.html">🍽️ <span>RCH Chill 'n' Thrill</span></a>
+    <nav aria-label="Main navigation">
+        <a href="home.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="cart.html">Cart <span id="cartCount" class="cart-badge">0</span></a>
+        <a href="contact.html" class="active" aria-current="page">Contact</a>
+    </nav>
+    <button type="button" onclick="logout()" class="logout-button">Logout ↗</button>
+  </div>
+</header>
+
+<main class="container">
+  <section class="page-intro">
+    <span class="pill orange-pill">SAY HELLO</span>
+    <h1>Contact RCH Chill 'n' Thrill 📍</h1>
+    <p>Find the restaurant and try our sample customer feedback form.</p>
+  </section>
+
+  <div class="contact-grid">
+    <section class="contact-card">
+      <h2>Come find us!</h2>
+      <p><strong>Restaurant:</strong> RCH Chill 'n' Thrill</p>
+      <p><strong>Address:</strong> 23/308-3, Tallapalem Road, Batchupeta, Ramanaidupet, Machilipatnam, Andhra Pradesh 521002</p>
+      <p><strong>Location:</strong> Machilipatnam, Andhra Pradesh</p>
+      <p><strong>Google rating reference:</strong> ⭐ 3.9/5 (about 260 reviews)</p>
+      <p><strong>Phone:</strong> +91 0000000000</p>
+      <p>
+        <strong>Email:</strong>
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=rchchillnthrill@contact.com"
+          target="_blank"
+          rel="noopener noreferrer">
+          rchchillnthrill@contact.com
+        </a>
+      </p>
+      <p class="small-note">Please check the restaurant's verified listing for up-to-date details.</p>
+    </section>
+
+    <section class="contact-card">
+      <h2>Leave us a note</h2>
+      <form id="feedbackForm" novalidate>
+        <label for="feedbackName">Your Name *</label>
+        <input id="feedbackName" type="text" placeholder="Enter your name">
+        <label for="feedbackEmail">Email (optional)</label>
+        <input id="feedbackEmail" type="email" placeholder="Enter your email address">
+        <p class="input-label">Your Rating *</p>
+        <div class="rating-stars" aria-label="Choose a rating from one to five stars">
+          <button type="button" class="star" onclick="selectRating(1)" aria-label="1 star" aria-pressed="false">★</button>
+          <button type="button" class="star" onclick="selectRating(2)" aria-label="2 stars" aria-pressed="false">★</button>
+          <button type="button" class="star" onclick="selectRating(3)" aria-label="3 stars" aria-pressed="false">★</button>
+          <button type="button" class="star" onclick="selectRating(4)" aria-label="4 stars" aria-pressed="false">★</button>
+          <button type="button" class="star" onclick="selectRating(5)" aria-label="5 stars" aria-pressed="false">★</button>
+        </div>
+        <p id="ratingMessage" class="small-note">No rating selected</p>
+        <label for="feedbackMessage">Your Message *</label>
+        <textarea id="feedbackMessage" rows="4" placeholder="Tell us what you think..."></textarea>
+        <button type="submit" class="button full-width">Send Feedback →</button>
+      </form>
+    </section>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div><strong>🍽️ RCH Chill 'n' Thrill</strong><p>Good food, happy moments, friendly prices.</p></div>
+    <div><p>Tallapalem Road, Ramanaidupet</p><p>Machilipatnam, Andhra Pradesh 521002</p></div>
+  </div>
+  <p class="footer-note">© 2026 RCH Chill 'n' Thrill ·</p>
+</footer>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,1 @@
+This version uses REAL Pexels food photographs over HTTPS instead of the old AI/cartoon illustrations. The images are not included in this folder; an internet connection is required for photos. See IMAGE_SOURCES.txt for the source links.

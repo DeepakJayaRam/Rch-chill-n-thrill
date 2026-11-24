@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login | RCH Chill 'n' Thrill</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="login-page">
+  <main class="login-layout">
+    <section class="login-visual">
+      <img src="https://images.pexels.com/photos/35539315/pexels-photo-35539315.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Real photo of South Indian breakfast with dosa and idli">
+      <div class="login-visual-text">
+        <span class="pill">MACHILIPATNAM'S NEIGHBORHOOD FOOD SPOT</span>
+        <h2>Food that makes your day better.</h2>
+        <p>Tasty tiffins, satisfying meals and little moments of joy.</p>
+      </div>
+    </section>
+
+    <section class="login-panel">
+      <div class="login-box">
+        <p class="login-brand">🍽️ RCH Chill 'n' Thrill</p>
+        <p class="eyebrow">WELCOME BACK!</p>
+        <h1>Ready for something tasty?</h1>
+        <p class="intro-copy">Sign in to explore our menu and build a food cart.</p>
+
+        <form id="loginForm" novalidate>
+          <label for="username">Username</label>
+          <input type="text" id="username" placeholder="Enter a demo username" autocomplete="off">
+
+          <label for="password">Password</label>
+          <input type="password" id="password" placeholder="Enter a demo password" autocomplete="off">
+
+          <button type="submit" class="button full-width">Let's Explore →</button>
+          <p id="loginMessage" class="form-message" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
